@@ -100,7 +100,6 @@ function CalendarPicker(element, options) {
     this.userElement.appendChild(this.calendarWrapper);
 }
 
-
 /**
  * @param {Number} The month number, 0 based.
  * @param {Number} The year, not zero based, required to account for leap years.

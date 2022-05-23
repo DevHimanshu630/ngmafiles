@@ -1,290 +1,449 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Font awesome -->
-    <script src="https://kit.fontawesome.com/0ccd48ad8b.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script
+      src="https://kit.fontawesome.com/0ccd48ad8b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
 
-    <link rel="stylesheet" href="../CSS/virtualTour.css">
-    <link rel="stylesheet" href="../CSS/navBar&footer.css">
+    <link rel="stylesheet" href="../CSS/virtualTour.css" />
+    <link rel="stylesheet" href="../CSS/navBar&footer.css" />
     <!-- Slider -->
-    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
     <title>Virtual Tour</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- Navbar -->
-    <div id="navbar" class="navigation" >
-        <div class="navigation_logo">
-            <a href="../index.html"><img class="navigation_logo-1" src="../image/4-NGMA.png" alt=""></a>
-            <img class="navigation_logo-2" src="../image/2-sanskriti.png" alt="">
-        </div>
-        <div class="nav_links">
-            <ul>
-                <div class="search-box">
-                    <input class="search-input" type="text" name="" placeholder="Search">
-                    <a href="#" class="search-btn">
-                    <i class="fas fa-search"></i>
-                    </a>     
-                </div>
-                <div class="nav-dropdown">
-                    <span>Tr</span>
-                    <div class="nav-dropdown-content">
-                      <p>A+</p>
-                      <p>A-</p>
-                    </div>
-                </div>
-                <a href=""><i style="font-size: 1.3rem; padding: 0 0.5rem; color: #3d3d3d;" class="fa fa-sitemap" aria-hidden="true"></i></a>
-                <div class="nav-dropdown">
-                    <span><i style="font-size: 1.3rem; padding: 0 0.5rem; color: #3d3d3d;" class="fa fa-share-square-o" aria-hidden="true"></i></span>
-                    <div class="nav-dropdown-content nav-dropdown-content-2">
-                        <p><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></p>
-                        <p><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></p>
-                        <p><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></p>
-                        <p><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></p>  
-                    </div>
-                </div>
-            </ul>
-            <ul>
-                <a href="https://www.indiaculture.nic.in/"><img src="https://lawctopus.com/clatalogue/wp-content/uploads/2020/12/Ashok_Emblem_svg.svg" alt=""> <span>MINISTRY OF CULTURE</span></a>
-                <a href="http://museumsofindia.gov.in/repository/home"><img src="https://lawctopus.com/clatalogue/wp-content/uploads/2020/12/Ashok_Emblem_svg.svg" alt=""> <span>MUSEUM OF INDIA</span></a>
-                <a href="./planVisit.html"><button>Plan your visit</button></a>
-            </ul>
-            <ul>
-                <a href="./events.html" id="nav_link" class="nav_link">Events</a>
-                <a href="./exhibition.html" id="nav_link" class="nav_link">Exhibitions</a>
-                <a href="./collection.html" id="nav_link" class="nav_link">Collection</a>
-                <a href="./shop.html" id="nav_link" class="nav_link">Shop</a>
-                <a href="./aboutUs.html" id="nav_link" class="nav_link">About us</a>
-                <a href="./contactUs.html" id="nav_link" class="nav_link">Contact us</a>
-            </ul>
-        </div>
+    <div id="navbar" class="navigation">
+      <div class="navigation_logo">
+        <a href="../index.html"
+          ><img class="navigation_logo-1" src="../image/4-NGMA.png" alt=""
+        /></a>
+        <img class="navigation_logo-2" src="../image/2-sanskriti.png" alt="" />
+      </div>
+      <div class="nav_links">
+        <ul>
+          <div class="search-box">
+            <input
+              class="search-input"
+              type="text"
+              name=""
+              placeholder="Search"
+            />
+            <a href="#" class="search-btn">
+              <i class="fas fa-search"></i>
+            </a>
+          </div>
+          <div class="nav-dropdown">
+            <span>Tr</span>
+            <div class="nav-dropdown-content">
+              <p>A+</p>
+              <p>A-</p>
+            </div>
+          </div>
+          <a href=""
+            ><i
+              style="font-size: 1.3rem; padding: 0 0.5rem; color: #3d3d3d"
+              class="fa fa-sitemap"
+              aria-hidden="true"
+            ></i
+          ></a>
+          <div class="nav-dropdown">
+            <span
+              ><i
+                style="font-size: 1.3rem; padding: 0 0.5rem; color: #3d3d3d"
+                class="fa fa-share-square-o"
+                aria-hidden="true"
+              ></i
+            ></span>
+            <div class="nav-dropdown-content nav-dropdown-content-2">
+              <p>
+                <a href="#"
+                  ><i class="fa fa-twitter-square" aria-hidden="true"></i
+                ></a>
+              </p>
+              <p>
+                <a href="#"
+                  ><i class="fa fa-youtube-play" aria-hidden="true"></i
+                ></a>
+              </p>
+              <p>
+                <a href="#"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </p>
+              <p>
+                <a href="#"
+                  ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                ></a>
+              </p>
+            </div>
+          </div>
+        </ul>
+        <ul>
+          <a href="https://www.indiaculture.nic.in/"
+            ><img
+              src="https://lawctopus.com/clatalogue/wp-content/uploads/2020/12/Ashok_Emblem_svg.svg"
+              alt=""
+            />
+            <span>MINISTRY OF CULTURE</span></a
+          >
+          <a href="http://museumsofindia.gov.in/repository/home"
+            ><img
+              src="https://lawctopus.com/clatalogue/wp-content/uploads/2020/12/Ashok_Emblem_svg.svg"
+              alt=""
+            />
+            <span>MUSEUM OF INDIA</span></a
+          >
+          <a href="./planVisit.html"><button>Plan your visit</button></a>
+        </ul>
+        <ul>
+          <a href="./events.html" id="nav_link" class="nav_link">Events</a>
+          <a href="./exhibition.html" id="nav_link" class="nav_link"
+            >Exhibitions</a
+          >
+          <a href="./collection.html" id="nav_link" class="nav_link"
+            >Collection</a
+          >
+          <a href="./shop.html" id="nav_link" class="nav_link">Shop</a>
+          <a href="./aboutUs.html" id="nav_link" class="nav_link">About us</a>
+          <a href="./contactUs.html" id="nav_link" class="nav_link"
+            >Contact us</a
+          >
+        </ul>
+      </div>
     </div>
 
     <!-- Slider -->
     <section class="carousel" data-flickity='{ "autoPlay": true }'>
-        <div class="carousel-cell">
-            <img src="../image/e&e_11.png" alt="">
-        </div>
-        <div class="carousel-cell">
-            <img src="../image/e&e_1.jpeg" alt="">
-        </div>
-        <div class="carousel-cell">
-            <img src="../image/e&e_14.png" alt="">
-        </div>
-        <div class="carousel-cell">
-            <img src="../image/e&e_7.jpeg" alt="">
-        </div>
-        <div class="carousel-cell">
-            <img src="../image/e&e_4.jpeg" alt="">
-        </div>
+      <div class="carousel-cell">
+        <img src="../image/e&e_11.png" alt="" />
+      </div>
+      <div class="carousel-cell">
+        <img src="../image/e&e_1.jpeg" alt="" />
+      </div>
+      <div class="carousel-cell">
+        <img src="../image/e&e_14.png" alt="" />
+      </div>
+      <div class="carousel-cell">
+        <img src="../image/e&e_7.jpeg" alt="" />
+      </div>
+      <div class="carousel-cell">
+        <img src="../image/e&e_4.jpeg" alt="" />
+      </div>
     </section>
 
     <!-- Header -->
     <section class="header">
-        <h1>VIRTUAL TOURS & EXHIBITIONS</h1>
+      <h1>VIRTUAL TOURS & EXHIBITIONS</h1>
     </section>
 
     <section class="cards_container">
-        <a href="http://ngmaindia.gov.in/virtual-tour-of-raja-ravi-varma.asp" class="card">
-            <img src="../image/e&e_11.png" alt="">
-            <h1>Raja Ravi Varma</h1>
-        </a>
-        <a href="http://ngmaindia.gov.in/virtual-tour-of-rabindranath-tagore.asp" class="card">
-            <img src="../image/e&e_1.jpeg" alt="">
-            <h1>Rabindranath Tagore</h1>
-        </a>
-        <a href="http://ngmaindia.gov.in/virtual-tour-of-gaganendranath-tagore.asp" class="card">
-            <img src="../image/e&e_14.png" alt="">
-            <h1>Reminiscences : Gaganendranath Tagore</h1>
-        </a>
-        <a href="http://ngmaindia.gov.in/virtual-tour-of-abanindranath-tagore.asp" class="card">
-            <img src="../image/e&e_7.jpeg" alt="">
-            <h1>The Great Maestro - Abanindranath Tagore</h1>
-        </a>
-        <a href="http://ngmaindia.gov.in/virtual-tour-of-nicholas-roerich.asp" class="card">
-            <img src="../image/e&e_4.jpeg" alt="">
-            <h1>Nicholas Roerich</h1>
-        </a>
-        <a href="http://ngmaindia.gov.in/virtual-tour-of-nandalal-bose.asp" class="card">
-            <img src="../image/e&e_2.jpeg" alt="">
-            <h1>Rhythm of Life | Nandalal Bose</h1>
-        </a>
-        <a href="http://ngmaindia.gov.in/virtual-tour-of-modern-art-1.asp" class="card">
-            <img src="../image/e&e_12.png" alt="">
-            <h1>Explore the Life and Work of Pioneering: JAMINI ROY</h1>
-        </a>
-        <a href="http://ngmaindia.gov.in/virtual-tour-of-ramkinkar-baij.asp" class="card">
-            <img src="../image/e&e_5.jpeg" alt="">
-            <h1>Ramkinkar Baij</h1>
-        </a>
-        <a href="http://ngmaindia.gov.in/virtual-tour-of-life-and-works-of-sailoz-mookherjea.asp" class="card">
-            <img src="../image/e&e_3.jpeg" alt="">
-            <h1>Life and Works of Sailoz Mookherjea</h1>
-        </a>
-        <a href="http://ngmaindia.gov.in/virtual-tour-of-amrita-sher-gil.asp" class="card">
-            <img src="../image/e&e_10.png" alt="">
-            <h1>An Unfinished Journey | Amrita Sher-Gil</h1>
-        </a>
-        <a href="http://ngmaindia.gov.in/virtual-tour-of-the-soul-speaker.asp" class="card">
-            <img src="../image/e&e_9.jpeg" alt="">
-            <h1>The Soul Speaker | Curator of Lives</h1>
-        </a>
-        <a href="http://www.ngmaindia.gov.in/virtual-tour-of-naimisha-2020.asp" class="card">
-            <img src="../image/e&e_17.png" alt="">
-            <h1>NAIMISHA 2020 </h1>
-        </a>
+      <a
+        href="http://ngmaindia.gov.in/virtual-tour-of-raja-ravi-varma.asp"
+        class="card"
+      >
+        <img src="../image/e&e_11.png" alt="" />
+        <h1>Raja Ravi Varma</h1>
+      </a>
+      <a
+        href="http://ngmaindia.gov.in/virtual-tour-of-rabindranath-tagore.asp"
+        class="card"
+      >
+        <img src="../image/e&e_1.jpeg" alt="" />
+        <h1>Rabindranath Tagore</h1>
+      </a>
+      <a
+        href="http://ngmaindia.gov.in/virtual-tour-of-gaganendranath-tagore.asp"
+        class="card"
+      >
+        <img src="../image/e&e_14.png" alt="" />
+        <h1>Reminiscences : Gaganendranath Tagore</h1>
+      </a>
+      <a
+        href="http://ngmaindia.gov.in/virtual-tour-of-abanindranath-tagore.asp"
+        class="card"
+      >
+        <img src="../image/e&e_7.jpeg" alt="" />
+        <h1>The Great Maestro - Abanindranath Tagore</h1>
+      </a>
+      <a
+        href="http://ngmaindia.gov.in/virtual-tour-of-nicholas-roerich.asp"
+        class="card"
+      >
+        <img src="../image/e&e_4.jpeg" alt="" />
+        <h1>Nicholas Roerich</h1>
+      </a>
+      <a
+        href="http://ngmaindia.gov.in/virtual-tour-of-nandalal-bose.asp"
+        class="card"
+      >
+        <img src="../image/e&e_2.jpeg" alt="" />
+        <h1>Rhythm of Life | Nandalal Bose</h1>
+      </a>
+      <a
+        href="http://ngmaindia.gov.in/virtual-tour-of-modern-art-1.asp"
+        class="card"
+      >
+        <img src="../image/e&e_12.png" alt="" />
+        <h1>Explore the Life and Work of Pioneering: JAMINI ROY</h1>
+      </a>
+      <a
+        href="http://ngmaindia.gov.in/virtual-tour-of-ramkinkar-baij.asp"
+        class="card"
+      >
+        <img src="../image/e&e_5.jpeg" alt="" />
+        <h1>Ramkinkar Baij</h1>
+      </a>
+      <a
+        href="http://ngmaindia.gov.in/virtual-tour-of-life-and-works-of-sailoz-mookherjea.asp"
+        class="card"
+      >
+        <img src="../image/e&e_3.jpeg" alt="" />
+        <h1>Life and Works of Sailoz Mookherjea</h1>
+      </a>
+      <a
+        href="http://ngmaindia.gov.in/virtual-tour-of-amrita-sher-gil.asp"
+        class="card"
+      >
+        <img src="../image/e&e_10.png" alt="" />
+        <h1>An Unfinished Journey | Amrita Sher-Gil</h1>
+      </a>
+      <a
+        href="http://ngmaindia.gov.in/virtual-tour-of-the-soul-speaker.asp"
+        class="card"
+      >
+        <img src="../image/e&e_9.jpeg" alt="" />
+        <h1>The Soul Speaker | Curator of Lives</h1>
+      </a>
+      <a
+        href="http://www.ngmaindia.gov.in/virtual-tour-of-naimisha-2020.asp"
+        class="card"
+      >
+        <img src="../image/e&e_17.png" alt="" />
+        <h1>NAIMISHA 2020</h1>
+      </a>
     </section>
 
-
-        <!-- footer section -->
-        <footer class="footer">
-            <div class="footer_col footer_col-1">
-                <span class="heading">Opening Hours</span>
-                <div class="days">
-                    <span class="day">Sunday</span>
-                    <span class="time">11am - 6pm</span>
-                </div>
-                <div class="days">
-                    <span class="day">Monday</span>
-                    <span class="time">Closed</span>
-                </div>
-                <div class="days">
-                    <span class="day">Tuesday</span>
-                    <span class="time">11am - 6pm</span>
-                </div>
-                <div class="days">
-                    <span class="day">Wednesday</span>
-                    <span class="time">11am - 6pm</span>
-                </div>
-                <div class="days">
-                    <span class="day">Thursday</span>
-                    <span class="time">11am - 6pm</span>
-                </div>
-                <div class="days">
-                    <span class="day">Friday</span>
-                    <span class="time">11am - 6pm</span>
-                </div>
-                <div class="days">
-                    <span class="day">Satuday</span>
-                    <span class="time">11am - 6pm</span>
-                </div>
-                <small>Please book your tickets online before visiting</small>
-                <div class="info">
-                    <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
-                    <span>Friday closing hours vary</span>
-                </div>
-                <button> <a style="text-decoration: none; color: white;" href="./planVisit.html">See the detailed calender <i class="fa fa-chevron-right" aria-hidden="true"></i></a></button>
-                <div class="logos">
-                    <img src="../image/4-NGMA - 1.png" alt="">
-                        <img src="../image/5-soham.png" alt="">
-                        <img src="../image/MOC Final LOGO (1).png" alt="">
-                </div>
-            </div>
-
-            <div class="footer_col footer_col-2 carousel" data-flickity='{ "autoPlay": true }'>
-                <div class="footer_col-2-div carousel-cell">
-                    <i class="fa fa-twitter" aria-hidden="true"></i>
-                    <span>National Gallery of Modern Art</span>
-                    <a href="https://twitter.com/ngma_delhi">@ngma_delhi</a>
-                    <p><span>11 hours, 09 minutes ago</span>
-                        Online Summer Art Fiesta | NAIMISHA 2021 | Chirantan - Multidisciplinary Workshop | Group-2
-                        <small>link</small>
-                    </p>
-                    <div class="circles">
-                        <div class="circle active-circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                    </div>
-                </div>
-                <div class="footer_col-2-div carousel-cell">
-                    <i class="fa fa-facebook" aria-hidden="true"></i>
-                    <span>National Gallery of Modern Art</span>
-                    <a href="https://www.facebook.com/ngmadelhi/">@ngmadelhi</a>
-                    <p><span>5 hours, 09 minutes ago</span>
-                        National Gallery of Modern Art pays tribute to Ramkinkar Baiz - one of the earliest modernist in Indian art.
-                        <small>link</small>
-                    </p>
-                    <div class="circles">
-                        <div class="circle"></div>
-                        <div class="circle active-circle"></div>
-                        <div class="circle"></div>
-                    </div> 
-                </div>
-                <div class="footer_col-2-div carousel-cell">
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
-                    <span>National Gallery of Modern Art</span>
-                    <a href="https://www.instagram.com/ngma.delhi/?utm_source=ig_embed&ig_mid=C08E5525-BAD8-4111-9ECB-83243B509AEB&hl=en">ngma.delhi</a>
-                    <p><span>2 hours, 19 minutes ago</span>
-                        National Gallery of Modern Art pays tribute to Ramkinkar Baiz - one of the earliest modernist in Indian art.
-                        <small>link</small>
-                    </p>
-                    <div class="circles">
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle active-circle"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer_col footer_col-3">
-                <div class="footer_col-3-links">
-                    <a href="./Pages/events.html">Events<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                    <a href="./Pages/exhibition.html">Exhibitions<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                    <a href="./Pages/collection.html">Collection <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                    <a href="./Pages/aboutUs.html">About Us  <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                    <a href="./Pages/contactUs.html">Contact Us  <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
-                </div>
-                <div class="footer_col-3-icons">
-                    <a href="https://twitter.com/ngma_delhi"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
-                    <a href="https://www.youtube.com/channel/UCrz1pygtJ-t1F2ZzPG4CFKA"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/ngma.delhi/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    <a href="https://www.facebook.com/ngmadelhi/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                </div>
-                <div>
-                    <span style="display: block;margin: 0.5rem 0;">Number of visitors</span>
-                    <img src="http://www.easycounter.com/counter.php?ngma" alt="">
-                </div>
-                <div class="footer_col-3-info">
-                    <span>Download our application</span>
-                    <img src="data:image/png;base64,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" alt="">
-                </div>
-            </div>
-        </footer>
-        <div class="popup" id="popup_virtual_tour">
-            <div class="popup__content">
-                <span class="virtual_tour-heading">3 museum views</span>
-                <a href="#navbar" class="popup__close">&times;</a>
-                <div class="virtual_tour-div">
-                    <a href="https://artsandculture.google.com/streetview/exteriors-of-the-national-gallery-of-modern-art-new-delhi/HQHkYXndnOcAoA?sv_lng=77.23460143771246&sv_lat=28.6103905520765&sv_h=2">
-                        <img src="https://maps.googleapis.com/maps/api/streetview?size=400x300&pano=o5lNPSl9hPfJ0XHUwqVG4g&heading=-130.0&pitch=15.0&sensor=false&client=google-cultural&signature=Fxej8Kj3mlIF16Bp5d8zaBZVeEQ" alt="">
-                        <i class="fa fa-male" aria-hidden="true"></i>
-                        <small>Explore</small>
-                        <span>Exteriors of the National Gallery of Modern Art, New Delhi</span>
-                    </a>
-                    <a href="https://artsandculture.google.com/streetview/national-gallery-of-modern-art-new-delhi/sAGjNY-6kIOa6g?sv_lng=77.2344348&sv_lat=28.6093319&sv_h=18&sv_p=0&sv_pid=F_nfC1hoOqCd06L7cB5ufA&sv_z=0.9999999999999997">
-                        <img src="https://maps.googleapis.com/maps/api/streetview?size=400x300&pano=F_nfC1hoOqCd06L7cB5ufA&heading=38.0&sensor=false&client=google-cultural&signature=a8FShGpKcqPq1BCV7C4c_mT4kqQ" alt="">
-                        <i class="fa fa-male" aria-hidden="true"></i>
-                        <small>Explore</small>
-                        <span>National Gallery of Modern Art, New Delhi</span>
-                    </a>
-                    <a href="https://artsandculture.google.com/streetview/jaipur-house-national-gallery-of-modern-art-new-delhi/KgGaM68i4izQmw?sv_lng=77.2345015991288&sv_lat=28.60999555159427&sv_h=42.27&sv_p=-13.299999999999997&sv_pid=n6i8-QRh-CVZIUObhNvCMg&sv_z=0.9999999999999997">
-                        <img src="https://maps.googleapis.com/maps/api/streetview?size=400x300&pano=n6i8-QRh-CVZIUObhNvCMg&heading=62.27&pitch=-13.3&sensor=false&client=google-cultural&signature=tz7EktUSkhwRB2h-FAvvZx3SaRc" alt="">
-                        <i class="fa fa-male" aria-hidden="true"></i>
-                        <small>Explore</small>
-                        <span>Jaipur House - National Gallery of Modern Art, New Delhi</span>
-                    </a>
-                </div>
-            </div>
+    <!-- footer section -->
+    <footer class="footer">
+      <div class="footer_col footer_col-1">
+        <span class="heading">Opening Hours</span>
+        <div class="days">
+          <span class="day">Sunday</span>
+          <span class="time">11am - 6pm</span>
         </div>
-        <script src="./script.js"></script>
+        <div class="days">
+          <span class="day">Monday</span>
+          <span class="time">Closed</span>
+        </div>
+        <div class="days">
+          <span class="day">Tuesday</span>
+          <span class="time">11am - 6pm</span>
+        </div>
+        <div class="days">
+          <span class="day">Wednesday</span>
+          <span class="time">11am - 6pm</span>
+        </div>
+        <div class="days">
+          <span class="day">Thursday</span>
+          <span class="time">11am - 6pm</span>
+        </div>
+        <div class="days">
+          <span class="day">Friday</span>
+          <span class="time">11am - 6pm</span>
+        </div>
+        <div class="days">
+          <span class="day">Satuday</span>
+          <span class="time">11am - 6pm</span>
+        </div>
+        <small>Please book your tickets online before visiting</small>
+        <div class="info">
+          <i class="fa fa-exclamation-circle" aria-hidden="true"></i>
+          <span>Friday closing hours vary</span>
+        </div>
+        <button>
+          <a style="text-decoration: none; color: white" href="./planVisit.html"
+            >See the detailed calender
+            <i class="fa fa-chevron-right" aria-hidden="true"></i
+          ></a>
+        </button>
+        <div class="logos">
+          <img src="../image/4-NGMA - 1.png" alt="" />
+          <img src="../image/5-soham.png" alt="" />
+          <img src="../image/MOC Final LOGO (1).png" alt="" />
+        </div>
+      </div>
 
-        <!-- Card Slider -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-</body>
+      <div
+        class="footer_col footer_col-2 carousel"
+        data-flickity='{ "autoPlay": true }'
+      >
+        <div class="footer_col-2-div carousel-cell">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <span>National Gallery of Modern Art</span>
+          <a href="https://twitter.com/ngma_delhi">@ngma_delhi</a>
+          <p>
+            <span>11 hours, 09 minutes ago</span>
+            Online Summer Art Fiesta | NAIMISHA 2021 | Chirantan -
+            Multidisciplinary Workshop | Group-2
+            <small>link</small>
+          </p>
+          <div class="circles">
+            <div class="circle active-circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+        </div>
+        <div class="footer_col-2-div carousel-cell">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <span>National Gallery of Modern Art</span>
+          <a href="https://www.facebook.com/ngmadelhi/">@ngmadelhi</a>
+          <p>
+            <span>5 hours, 09 minutes ago</span>
+            National Gallery of Modern Art pays tribute to Ramkinkar Baiz - one
+            of the earliest modernist in Indian art.
+            <small>link</small>
+          </p>
+          <div class="circles">
+            <div class="circle"></div>
+            <div class="circle active-circle"></div>
+            <div class="circle"></div>
+          </div>
+        </div>
+        <div class="footer_col-2-div carousel-cell">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <span>National Gallery of Modern Art</span>
+          <a
+            href="https://www.instagram.com/ngma.delhi/?utm_source=ig_embed&ig_mid=C08E5525-BAD8-4111-9ECB-83243B509AEB&hl=en"
+            >ngma.delhi</a
+          >
+          <p>
+            <span>2 hours, 19 minutes ago</span>
+            National Gallery of Modern Art pays tribute to Ramkinkar Baiz - one
+            of the earliest modernist in Indian art.
+            <small>link</small>
+          </p>
+          <div class="circles">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle active-circle"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer_col footer_col-3">
+        <div class="footer_col-3-links">
+          <a href=".events.html"
+            >Events<i class="fa fa-chevron-right" aria-hidden="true"></i
+          ></a>
+          <a href=".exhibition.html"
+            >Exhibitions<i class="fa fa-chevron-right" aria-hidden="true"></i
+          ></a>
+          <a href=".collection.html"
+            >Collection <i class="fa fa-chevron-right" aria-hidden="true"></i
+          ></a>
+          <a href=".aboutUs.html"
+            >About Us <i class="fa fa-chevron-right" aria-hidden="true"></i
+          ></a>
+          <a href=".contactUs.html"
+            >Contact Us <i class="fa fa-chevron-right" aria-hidden="true"></i
+          ></a>
+        </div>
+        <div class="footer_col-3-icons">
+          <a href="https://twitter.com/ngma_delhi"
+            ><i class="fa fa-twitter-square" aria-hidden="true"></i
+          ></a>
+          <a href="https://www.youtube.com/channel/UCrz1pygtJ-t1F2ZzPG4CFKA"
+            ><i class="fa fa-youtube-play" aria-hidden="true"></i
+          ></a>
+          <a href="https://www.instagram.com/ngma.delhi/"
+            ><i class="fa fa-instagram" aria-hidden="true"></i
+          ></a>
+          <a href="https://www.facebook.com/ngmadelhi/"
+            ><i class="fa fa-facebook-official" aria-hidden="true"></i
+          ></a>
+        </div>
+        <div>
+          <span style="display: block; margin: 0.5rem 0"
+            >Number of visitors</span
+          >
+          <img src="http://www.easycounter.com/counter.php?ngma" alt="" />
+        </div>
+        <div class="footer_col-3-info">
+          <span>Download our application</span>
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQ0AAAC7CAMAAABIKDvmAAABm1BMVEUAAAD39/f////8/Py5ubnZ2dl3d3cbGxtm/9T/xGaenp7m5uZaWlr29vaioqLu7u4lJSV+fn45OTnFxcXOzs6Li4vg4OBAQECUlJS1tbVdXV3IyMjU1NRpaWlUVFQxMTFubm5Z38xMTEwWFhZCoIirq6ssLCxT0cld6c5g8tF7e3uGhoZX2stPyMcODg4/Pz/OPm5Nw8Ws7KlJusPEPXyU4a2i6Ku28KfRP2m+PIZErMCK3a/A9ab/y2rIPXfXQGC3O48PJi43cGMYMCo+ocJs1rpRm4YQHhknY3NOjHZCp7940K1KfWYrbntDa1VHtMWAyJw2Uj8qPi4veH17r4EfKx9hyb1PyMpukWVge1M0g4Bt1b204ZdRZELR/6o+UDXu643FlUw3LBcdFww5j4N+5L2if0KNbjnst19cSCWE9cGRpqjrgmPTKWZ0XDDMJ3HSo1XdNVb4h1/CJYFtFieKtbiNKkO4II8hChGjMmEzEB2uI5+uOJ2rNn9WGz2oN6dtI16lHa6mOLWAK4Z+vtKFLJgwETUjR0RgF3cPDrH7AAAUMElEQVR4nO2did/jxlnHpdHhRrIk2zos366M3GA3fnc3x6ZNttvShiMLJEBpgZYQjkBLKSGUbYG2pIVA+bM7zxzSSNZh2X7tfV/7l3z2fV8do9FXzzxzaOaRJF+VSjp3Bl4oXWmIutIQdaUh6kpD1JWGqCsNUVcaoq40RF1piLrSEFVIQ1HQfZeiKDvRUJAW+139fmvl256CamkocjyTLkMb38nbR44GGnXOnclTKkZVNJBx7vydWJMKGig8d+5OrqFSRkMZnDtvZ1AXldBwzp2zs2ikFNJAq3Nn7CzqFdO4TNPIGEdKQ4nPna0zSUcFNND8KGn7nuZ24Ze2AfKl0DDw//aEXHglrclmQ2eHh56mkl1TOyI/Tl+ttQpp9I6Q8lRBquEipyVJBtI0LXAlL9CQowU+7B6NJRX/KWuBTQ6fICs2PDTGv/qIlFRfOUIuGsoponGEdGfIgx8tKHRh6occ/sBdsnvMa/IpIr/dyGPAIAMh3zpCNhoquCUaI8ETizR4E5fS0FSeDY3+7CNd8p05ujkPDe2WaKBu+ns9jV7iqsYeYNC0e0WjB09XmoRYuhQibzzW5rC9hMYcLdl2wwEMMwzzXtHo439txzGRJoWKHcdxG7aX0JggPnhgExrY8d4nGlLS7fPcHUrKMilYuOohGBxVv0c0BkqL/Jxht7iDF/XYIXPUpjSmKL5HNDaWM8U/2rK2U53SUQIoK2uoaGkRUdEZ+ge3RUNqjZGlWciVwAmAyM1ZNts9gnYWlAumJW6YBYiMMYWk2bVB8jGy0Uy3RgO3HXxjTVq1/TmItLonfbZzSpzqcJoeHoVGdwO/3Mzp35PjZKOJbpHGHdSVhqjdaXztt75+4rydXjvT+No33nvnt3/n1Nk7sXam8bvvfuPVd975vc2pM3hS7UzjD959991Xnz179vunzuEptTuNL2NhHB+9/4enzuPptDuN97C+/PDZs7feev+Pdk9fj0djb7C6IwVsZxp/8up7r2IeD996663XX3//j3dKvO8m8wJG0UHZHDimV7qzF9tMa36VTmzH09ITStWABtW3CI43vvmn9WnHmXkSB72+w1jN0p1D4SombcH28K/r5pfZncZDYPGQ4MA03nj0zUV1yq2Adk80b+zQjDbPXaJKGu0MddITunUa337I9K3XCY1Hj/6sKuEFQaBSc+0P8O+HvBGopWE5IIIDhkpum8ZfvML17e8AjTcePX78+M/LEx5DFlNnEVkHvR6ppTEkv/U8uKp0AhpfeAX/B3rlle+8ATQePX777e/+ZUm6IRSS49UktTR4hxcegn4KGoLeoTQwjg+++1eF6YLJHnGi1M40+vj3+AQ0vkj1Bfw/wUFs4+0PPvjwr/9m+2gwjWPODtqZBjwGN0NjONDMwPVbu1xmZxp/9/kvivroEaPx4UtPXvr7v80fjesTpaLO0Qeep3bFLSu8ZZCZKNFVPTfsSP0oWoo0Or7ruUbm3ahIYwOuW6Cx1HhdQ/yWaTpJ+W1jz6vtTSOrjyiND1/CwjxyR+Orl7eWVhabqZk4Vl+mW+TEuldsS9chdWZCw2b3Jk4jEGmE9L45jaUw3xUaPGLd5vLqeB8aL2f1+Y9wnUJhEB7/IB4ciRdatlMtWI6YGLFRuoUNG9tIkJHS8PKnchq0TpEmzF9xGiY489i3NVb1LhHio88t2JTz83vTePnlf3z8mMMAHt/7fnowtA59/sdauLEhGzMehaGa3DzB44YhacfbySkjtkWgAa1bZbDyx5nHCjRUaJjHY54mp3GjMmyQosnAz8mWMGXfnMZv/OY2DgEGKPUeQ8Egpa5AY07yqZAh4qVJ8UwRb5n0ofnUx49N4cdMFZEGnOuQmgqwJL4j2xYlNpR6UV6xqTRpuBgZridmw8es96CR1+d+8E9PRBhP0rqlL5Zs0TZ0YgiskC+pwYMBROl5KjUf+gAlXaSRMJiPxQeboUHfSYh1ij3Sxup6ztLUGAQ4KedDm9D43BaMH/5QwPHkpX8WjhYv1ekT9ebEFBxhz4CUXPz4R3yLR5qSAUpfLTkCDYfcbMsgXthJiiLcmAKSg5hhTWi0HYFUl+EFji4SquU9aOT0g48fvJngyNcqmmjJTGAjS0ks8ZCz6Eb0MVCYW5Is9HhdgQYcOaW+xBumCQONdvZanIaeKURdhhdfYoGKWjB703j+8YMHbz59SnE8ybfAuonNZgg5xJMn9w41QDtKiwU9bwbWkhAbZGlQs7AzzdxM6ytDg9QbgT+NJrbFadCGYSjm42Aazz/+ylcevPnm008wjif/8v2twy3xHomG1JfkPUrUEz2uTR6cJTiFUZYGFEFdyqqchp8+lCmnsZHhqWAfKm93o/ak8fxHr1EaTz/51+9ts2AmKppvyyKPHbKR+ATsCxUCLvEkdC/enryElQUaMGIyyNcDVTTUtN5wOQ3irWKUbcAdROP5j77EaHzyyb8VHU0zIgxptC3mMGyU9GB0+uQGqf8PaSbX6TG2WKcI5j0RmgrlNAZJdeUnfoNUZQgVdir3ooFhUBpPn5awkFiz0TGihbSZ6aRZROp5MFTqFUgG+zDFg3MjDTNYFuNwHGRL2vpS+JEr7EESAOU0VuAr8SWWg9SL8qZv3q3tS+P5T77EaPy4lIXErANLZn0F2uiR5mTb2LMSCKRBYnl0S5ffX3KMQGPCjiTVZtKnKachUacLhyspjSlJtWgQeQ8az3/yVULjwY//vQpG2jtD/J6oulvbwnTLWkBGbt3K9FNWW0dW00gbZpOUBvE/QVGOm9PAMDCN1177j/+sZgHyA5YXJxbWhfVYL22cPJ5oTLd4iYuc0f6ZOTMzNJJzvZs0Pait5tkL33BcEc2B3BbHf6CMFi6zaEzj+U9/9lWM4+c7sABtJn4Y6nmHtZnjjZl1cy09DOeZEZHWKvQj4kL87XOzYyeLzdZYymKxYBXo1HbVdfYgkw6ebqspDQwD0/j5fxUmdkRxfp3t536wJqhsYK4hjc9++immcdssFl0NMcsBo95pEK+BgtI0m9H47JeffvqzXxw5c9uCUm+S/EKPfnzk1MlwSPGuRjQ+++V/f/qLI+etUGToS/VD4jIPe4O7LfDY2w1aoiY0MIz/qalUj6X0dfbR16JGqNzcdqbxKwzjf//vyDkrV8iabNbRFxx6262TRLvPgvvV/5+OBdbCV73RIN9dPVwbwzBKza1wtc6y7Oj7rsKVXGeYxftiqHAF6KVFFOCaFK15lAt7NBegQZFtyPkx1wvRxpKLaCjHbv7dDdnF6+jlguHk+69IDMCRiUaiXF5Z6ThyGQ1ZvjQcHbM0NgtYx2UVlkkuqlM+whXSLqcR1nfzEb+2op8pyIznvU7rnms2MTS0FQ6uKDIedCSVey64w+07v0ZNFHWlIepKQ9SVhqgrDVFXGqKuNERdaYi60hB1pSHqSkNUMY1z9yJOoB1pKEgxR+p91yiQt7uw2zRQsD72zIkXVHNvy0LyY1/O8d+BvriaatURvL07EgjgWMoFNM+OmY/qz79nMlAZDWVrHcsFaFD6PuVSvoCQkVlM40Jf0guv6DO2URNM4r4qKJy/UTQ9/xLkF9FA3foT76V6hRG8jz1D887IKqLRuOE1UZ2jEowm1Z+ymQwrd2c0m9zUH8RkFtHY/VJE7aBmxm8vdr2x6u8+1dCtmV1UsoSgUOuiBWwlOkIMSbrWpuphDpESBMpWRINyuYUri1LtFpd2Q16rd3e/7BFo0HAIldkbkgUQU2fnp3QUGhu6PumkNNhq5MorDunuDrOgnh/SkAGwYKelw5rqOXYE7bkUGSE5gtFYdMM5TSEK7TXzZl1blxSBRmcd0qkVwvnkKl1kTuZAw5BCgxXkyDCqOB9Mg0UNqfR6jIakkrVUMSy5o59/8CGzKkQTGMAEcDAzGbwLpaHD0mgHlgt0YaWeBXtaEBpBE2j4+BRkwuVHyODng2gwA3IBhS/5sZFjVRnooTTCHUwjoRFCTnyIq2BDIIEZrMIcgdWH4DVV5EQdl6ygJzQi5CylOXGYsxsWzxofHm9aXlpSJiho4V0mYW1NO2qy9GTTQ9qmQxYV6i363Y05LGhQK0rhoTRMAqOmy5uh4aAFOQ8/QxNnURmgmTSyyN3osPLd5DRUMsNbZW3BzhTsaUl2z8Tl1hH5dwJLgWG9QrqrRbNFjE8KYLWSBpdZVhjHgTQ6dPFizVGcRoyLRov6Nhdu3UabNurg4iO75L7Bm5BCQGgEpN3jk8yTkIMBmAK5lbSkOCTctw0PfUDC1aSVb0IDLj6GpdGyYkLAuPKOx4E0ovpiItAwUR/zYzTmsEx3EpuS5/UADaWxKaThobAlyYTGYH8aOG0DAtqUD3EeSKNvekb9FxAZjZAYkUOSd8iyD9k2bdxX8knhydOgTTAX2/+MEFQCcLdQUnppcdBImI8xgKi3DbPucz170dgM174utHdn3YE68Mtbo0P8fDttFzkAzoDHa9BwLK6F7wDfGylqeRoTWjQsKOoOnAJIApzUZpzS6IJP7pJdeRqSovQXGRo++XhlRat5DxpttrDZsalV+CZf5V22JogFAB3QFoOLZIv5XR0iTmA78SmNITSZKA0wC1xf4Xr1hvyNFNOC++xDbekF6UOOkeJQzCqlke5SiauhLXONhFQY1LQGGtPYCMG50Dj0hfV4mEdx96Kjd/1u2tFq2zabirpYwdb2iq72XEHh0edkC22mGTEbXNDjtTQk5X3j23P2K1VkxPQv4XymNT5UulmBMQxXZARr1vX1I9rGTIwKVKC7PTTSkEarBkbJav27ooY0vDoYzh6xkV8cNaOh18G442vAmtGoKyeHBGJ+EdSIxqTONO76gGojGoMaGCWRC+6OGtGoKyglkQuOqNl0eoxPcpapCY1ODYya4TkN9x+tQ8pS26WhBgL7tl4TN6ER1dConuXQJ8cc8CFeodV7W6vMmtCoc6LVbmOH0eRK0d6RRaJmJTOwJscNgHA6GiYNALlvUYExT2UNw8rDATPCIe4CH9dVHZNGeZRqicbigcbb7sP5WQHJnAOFonM+GtMaGpUvwAzYb+7dQAOvk/dLEHpv97eKu6gJjVkNjcpSEEBJssWDWp0OlP/FxPcn/M3vptMhfflo7a8yljDPl8RNhwY0xqnw2SabSWiE6cABS3/q8+5/C19pXjlS16i9odTQqJj3AYHpdGJdybwhl3RrYpKozArQkBi/TsePPIEHnJnxwIKh0nM3MX21k3xKMob0OwE3xxmrk0YV1XMjGuP9jQPeu0ik/ZZ07FTIJx83Y+PuEdBIQ7sLHWIlRztPI0pDNDqUog38oMFIrpg6PaU8l41oZCLQF6ncKWj0fqFtz4s6fnYO5hu4I2IepByAr8WULNclmIRvKZBrm2k5iMwA7t8MAhNaHz1Iw4rDAfyUSQ2MPZVp81yB33HWvQheRZT7t0Y02gUAsip7zQTxXiHT8IT46CnJKY1eoHJDoHFhSRNtlSBKeCIxbjc9i7c3YNIE8bKbgBtaSEKbjvUIbCHx3xNUUa8169HLtThKRnsg3B8pr0pKjMSVZQ8bRpGgHJDGPysQ5EWqMNOdlXs5GYsW6hQ9NcyFzJINhbTmKCl2XkUTsBmNuk5s7nGmGvPMuigJCAw0uBOBEiJzGrwowVMWx1l11msMOimNfnKLSSQqg2WC0GDbRumlfFTeSmlGI9qTBsRSp+YJD8lPc53YLJseBDSSYg0HZL9rNqEjkVYrT0NB6ZsDyKTDaHC/a0FKHdACzGh+FBpSUHT/WRVxB6P3yGoQsA0tvdnEC6g0jx3BXkgRz7/i7ZDy4uVoLJHgsjaAZpN8SoXvF1U2st+QRu3AaLEfzVXNrW0aNs1jhkZUmBwJdd3L0oAj05Yq1DWdTLzvfi6TZZ9kavo+xUQ1KpytV5iZDA2o+eY5GunXPTIa8xSyNNJeEnaj8P13wTaARjBIpJYN7DelMUfVKpy8AJWlOtdBcyM5KEMDHEKUowHBrQu+hwjGYXAa1OPC9w6Stg50ILjfEErKLiMrjd881rxRKWzneeIOaB6RbokhZtGiZT3jRd1im/b5XQpe1ELpV4N0ZigCjUwbuEKNaVQPBxY+gA0Sq3iP36MhbPbZHZDUWWEjrq+gk+XxQ6C+Zy9+VeHOoSSBmxRpqGjroyJHoVHpSItb5nrG4te8qPCo/hIEHmN32BFSgcZn2jPh34khN0nNx07xEzdJ2zE+hyzSiOCk+vHlPWYsxNsUmEoW+YyQ6FzJI19wGshtL/vkN+IFqeWZq96M9mNnwllB3J1MQtJAp+WH+DB7uJqxTMkwb8xOrEukQdv+8XA260+M8olZ+8xmUVGxSjqH8B0IWfgb2iwrRiNtv9AyAzSctP2fTkwIxQvx8shGGIYcObJMJYWVoZGp5EuNZK+5Pbwvq+rLRWtqsFrXLLkI+zBI5sbGjEaXG9p4kdDQInaXshBwbJWOrVhJ24lVcPQwI+E6Sa8jzK8RTLo0kNl+876ikWKN095kexA449KPTOq2YYsV/Az/bUi8hp3icwOVFyRaw26MsWN6udcE89gzHXMcz8V8qKYTuKxeaeGzZNNN7GmIryN6zk44CnACg4o1z0eYdb+vMu0Npkx74/S60hB1pSGqMIL3aZY8voA0CtcunSa26AtIQy6gcaLQonYJjfNNEIqK1jwqla8Qj6bVyB3la/4W3nbAa/wDZRRG8FYuchl9ZiG9SKNgVOEC1C1ZR3+R4d0XYtDqTMQJ50Ii9ojyyuOZBxcXZkEtjc2CcZi3P8HvRdLGq4jbA2HP9p2FcxfVtXIhrrYjeFuD4UUEdooMJx/OvCgyHgSDC7R7LtMqCAVXGjXx3GH8blkld32NISnqSkPUlYaoKw1RVxqirjREXWmIutIQdaUh6kpD1JWGqF8DIoPge+BHR2UAAAAASUVORK5CYII="
+            alt=""
+          />
+        </div>
+      </div>
+    </footer>
+    <div class="popup" id="popup_virtual_tour">
+      <div class="popup__content">
+        <span class="virtual_tour-heading">3 museum views</span>
+        <a href="#navbar" class="popup__close">&times;</a>
+        <div class="virtual_tour-div">
+          <a
+            href="https://artsandculture.google.com/streetview/exteriors-of-the-national-gallery-of-modern-art-new-delhi/HQHkYXndnOcAoA?sv_lng=77.23460143771246&sv_lat=28.6103905520765&sv_h=2"
+          >
+            <img
+              src="https://maps.googleapis.com/maps/api/streetview?size=400x300&pano=o5lNPSl9hPfJ0XHUwqVG4g&heading=-130.0&pitch=15.0&sensor=false&client=google-cultural&signature=Fxej8Kj3mlIF16Bp5d8zaBZVeEQ"
+              alt=""
+            />
+            <i class="fa fa-male" aria-hidden="true"></i>
+            <small>Explore</small>
+            <span
+              >Exteriors of the National Gallery of Modern Art, New Delhi</span
+            >
+          </a>
+          <a
+            href="https://artsandculture.google.com/streetview/national-gallery-of-modern-art-new-delhi/sAGjNY-6kIOa6g?sv_lng=77.2344348&sv_lat=28.6093319&sv_h=18&sv_p=0&sv_pid=F_nfC1hoOqCd06L7cB5ufA&sv_z=0.9999999999999997"
+          >
+            <img
+              src="https://maps.googleapis.com/maps/api/streetview?size=400x300&pano=F_nfC1hoOqCd06L7cB5ufA&heading=38.0&sensor=false&client=google-cultural&signature=a8FShGpKcqPq1BCV7C4c_mT4kqQ"
+              alt=""
+            />
+            <i class="fa fa-male" aria-hidden="true"></i>
+            <small>Explore</small>
+            <span>National Gallery of Modern Art, New Delhi</span>
+          </a>
+          <a
+            href="https://artsandculture.google.com/streetview/jaipur-house-national-gallery-of-modern-art-new-delhi/KgGaM68i4izQmw?sv_lng=77.2345015991288&sv_lat=28.60999555159427&sv_h=42.27&sv_p=-13.299999999999997&sv_pid=n6i8-QRh-CVZIUObhNvCMg&sv_z=0.9999999999999997"
+          >
+            <img
+              src="https://maps.googleapis.com/maps/api/streetview?size=400x300&pano=n6i8-QRh-CVZIUObhNvCMg&heading=62.27&pitch=-13.3&sensor=false&client=google-cultural&signature=tz7EktUSkhwRB2h-FAvvZx3SaRc"
+              alt=""
+            />
+            <i class="fa fa-male" aria-hidden="true"></i>
+            <small>Explore</small>
+            <span
+              >Jaipur House - National Gallery of Modern Art, New Delhi</span
+            >
+          </a>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+
+    <!-- Card Slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  </body>
 </html>
