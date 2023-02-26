@@ -63,7 +63,8 @@
     </div>
     <section class="events">
         <div class="events_header">
-            <img class="events_header-img" src="../image/naimisha-banner.jpeg" alt="event_1">
+            <!-- <img class="events_header-img" src="../image/naimisha-banner.jpeg" alt="event_1"> -->
+            <img class="events_header-img" src="../image/Akbar_Saheb.jpeg" alt="event_1">
             <h1 class="events_heading">Events</h1>
             <div class="events_navigation">
                 <a class="btn btn-all active" href="#" id="" onclick="displaycards('all') , toogleActiveClass('all')">All</a>
@@ -87,29 +88,44 @@
         <div class="events_content">
             <div id="myCalendarWrapper"></div>
             <div class="events_card events_card-lecture">
-                <img src="../image/naimisha-banner.jpeg" alt="">
+                <img src="../image/contempary.jpg" alt="">
                 <div class="events_card-content">
-                    <span>Friday, May 30 - June 26 ,2021</span>
-                    <h1>NAIMISHA Summer Art Program.</h1>
+                    <span>Fab 11 - Fab 18th ,2023</span>
+                    <h1>Contemporary-Photography</h1>
                     <small>
-                        Lecture <br>
-                        11:00 AM TO 12:00 PM<br>
+                        Contemporary Women Photographers  
+                        <!-- Lecture <br>
+                        11:00 AM TO 12:00 PM<br> -->
                     </small>
-                    <p>NGMA, New Delhi has been organising Naimisha Summer Art program as a regular feature of the educational activities every
-                    year since 2018. In its continuation, the art festival is being organised this year from 30th May – 26th June 2022 in an
-                    interdisciplinary mode. The sessions will be held both in offline and online modules with separate registrations.</p>
+                    <p>Please send your entries on <b>ngma.women@gmail.com</b> 
+                        with 2 images and details of your photography works (not more than 5MB)
+                        Selected Photographs will be displayed in the exhibition, 
+                        as part of International Women's Day 2023.
+                    </p>
                 </div>
             </div>
             <div class="events_card events_card-workshop">
-                <img src="../image/e&e_9.jpeg" alt="">
+                <!-- <img src="../image/e&e_9.jpeg" alt=""> -->
+                <img src="../image/Akbar_Saheb.jpeg" alt="">
                 <div class="events_card-content">
-                    <span>Friday, March 13, 2020 - June 30, 2021</span>
-                    <h1>The Soul Speaker | Curator of Lives</h1>
+                    <span>October 28, 2022 - November 3, 2022</span>
+                    <h1>A Display Of Artworks by Akbar Saheb</h1>
                     <small>
-                        Workshop and Seminars <br>
-                        10:00am - 5:00pm<br>
+                        11:00am - 6:00pm
                     </small>
-                    <p>Due to the ongoing coronavirus health crisis, we regret that all in-person events have been canceled through June 30, 2021.</p>
+                    <p>At the National Gallery Of Modern Art,Jaipur House,India Gate,New Delhi - 110003</p>
+                </div>
+            </div>
+            <div class="events_card events_card-talk">
+                <img src="../image/AMRITA-110.jpeg" alt="">
+                <div class="events_card-content">
+                    <span>Tuesday, January 27, 2023 - January 31, 2023</span>
+                    <h1>AMRITA110 PROJECT</h1>
+                    <small>
+                        4:00PM<br>
+                    </small>
+                    <p>Amrita110 project followed by a curated tour of the Amrita Sher-Gill collection.</p>
+                    <p>At the National Gallery Of Modern Art,Jaipur House,India Gate,New Delhi - 110003</p>
                 </div>
             </div>
             <div class="events_card events_card-talk">
@@ -312,7 +328,7 @@
         $(".default_option").click(function(){
         $(".dropdown ul").addClass("active");
         });
-
+        
         $(".dropdown ul li").click(function(){
         var text = $(this).text();
         $(".default_option").text(text);
